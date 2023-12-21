@@ -1,0 +1,7 @@
+/* Class for html nav element on all pages */
+/* list-style-type: none; - Removes the bullets. Set margin: 0; and padding: 0; to remove browser default settings */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
