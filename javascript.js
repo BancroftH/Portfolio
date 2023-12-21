@@ -1,1 +1,1 @@
-console
+console.log("Hello and Welcome! Check out my cool Portfolio");
