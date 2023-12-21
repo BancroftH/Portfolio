@@ -1,7 +1,32 @@
-/* Class for html nav element on all pages */
-/* list-style-type: none; - Removes the bullets. Set margin: 0; and padding: 0; to remove browser default settings */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+/* Class for html nav element and navbar on all pages */
+.navbar {
+  position: relative;
+  align-items: center;
+  background-color:#0D1821;
+  color: #F0F4EF;
+  display: flex;
+  font-family: sans-serif;
+}
+.logo {
+  font-size: medium;
+  margin-right: 70%;
+  padding-left: 10px;
+}
+a {
+  color: #F0F4EF;
+  text-decoration: none;
+}
+body {
+  background-color: #F0F4EF;
+}
+main {
+  justify-content: center;
+  color: #344966;
+  font-family: sans-serif;
+}
+img {
+  max-width: 25%;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+}
