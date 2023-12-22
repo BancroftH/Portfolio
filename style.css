@@ -1,10 +1,15 @@
 /* Class for html nav element and navbar on all pages */
 .navbar {
-  position: relative;
+  position: fixed;
+  left: 0;
+  right: 0;
   align-items: center;
+  box-shadow: 12px black;
   background-color:#0D1821;
   color: #F0F4EF;
   display: flex;
+  height: 86px;
+  padding: 10px;
   font-family: sans-serif;
 }
 .logo {
@@ -18,9 +23,18 @@ a {
 }
 body {
   background-color: #F0F4EF;
+  margin: 0px;
 }
 main {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 84px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 96px;
+  background-color: #B4CDED;
   color: #344966;
   font-family: sans-serif;
 }
@@ -29,4 +43,13 @@ img {
   height: auto;
   border-radius: 10px;
   margin: auto;
+}
+h1 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
