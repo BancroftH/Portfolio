@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="homepage" href="homepage.html">
+    <link rel="portfolio" href="portfolio.html">
+    <link rel="form" href="form.html">
+</head>
+<body>
+    <!-- navigation bar that directs you to other pages -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Harrison Bancroft</h1>
+        </div>
+        <div>
+            <a href="homepage.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="form.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <h1>Contact Me:</h1>
+        <form class="form">
+            <div>
+                <label for="name">First & Last Name:</label>
+                <br>
+                <input id="name" type="text" name="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <br>
+                <textarea name="comments" id="comments" cols="6" rows="50"></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>  
+</body>
+</html>
