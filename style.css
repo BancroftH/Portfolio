@@ -18,6 +18,9 @@
   padding-bottom: 16px;
   color: #F0F4EF;
 }
+.form {
+  margin: auto;
+}
 a:hover {
   color: #BFCC94;
 }
